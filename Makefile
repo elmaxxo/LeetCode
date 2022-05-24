@@ -1,7 +1,7 @@
 # This makefile builds an executable % for each %.cpp file.
 
 CC = g++
-CXXFLAGS = -Wall -Werror -std=c++20
+CXXFLAGS = -Wall -Werror -std=c++2a
 
 sources := $(shell find . -name *.cpp)
 targets := $(basename $(sources))
